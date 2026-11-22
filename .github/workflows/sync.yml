@@ -1,0 +1,28 @@
+name: Sync public National Art Dex data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 17 * * *'
+  push:
+    paths:
+      - '.github/workflows/sync.yml'
+permissions:
+  contents: write
+concurrency:
+  group: public-card-index
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate public data
+        run: node sync.mjs
+      - name: Publish verified files together
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- cards-index.json cards-index-summary.json mirror-status.json
+          git diff --cached --quiet || git commit -m 'Sync verified public card index'
+          git push
