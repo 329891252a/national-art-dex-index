@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T14:42:52.473Z",
-  "dataSha256": "a4e3c3a7376f77d94619cb1a4395122dfd89e485e4eec31a35889db05bb3fd71",
-  "cardCount": 2228,
+  "updatedAt": "2026-11-24T10:08:55.980Z",
+  "dataSha256": "b0d9d339162e926ebae31884655c8e6ab1d4bdf50ce79f08fb3cd298dad54003",
+  "cardCount": 2239,
   "indexUrl": "https://national-art-dex.decentdeer6.chatgpt.site/cards-index.json",
   "columns": [
     "printingId",
@@ -18,6 +18,6 @@
     "bilingualStatus",
     "dexConfirmed"
   ],
-  "firstCardLine": 179,
-  "lastCardLine": 2406
+  "firstCardLine": 180,
+  "lastCardLine": 2418
 }

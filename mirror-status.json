@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulCheckUtc": "2026-11-24T03:28:06.779Z",
-  "upstreamUpdatedAt": "2026-11-23T14:42:52.473Z",
-  "cardCount": 2228,
-  "dataSha256": "a4e3c3a7376f77d94619cb1a4395122dfd89e485e4eec31a35889db05bb3fd71",
+  "lastSuccessfulCheckUtc": "2026-11-24T10:12:04.757Z",
+  "upstreamUpdatedAt": "2026-11-24T10:08:55.980Z",
+  "cardCount": 2239,
+  "dataSha256": "b0d9d339162e926ebae31884655c8e6ab1d4bdf50ce79f08fb3cd298dad54003",
   "summaryFile": "cards-index-summary.json",
   "indexFile": "cards-index.json"
 }
