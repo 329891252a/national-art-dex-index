@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T18:11:38.217Z",
+  "updatedAt": "2026-11-25T13:27:58.770Z",
   "dataSha256": "b0d9d339162e926ebae31884655c8e6ab1d4bdf50ce79f08fb3cd298dad54003",
   "cardCount": 2239,
   "columns": ["printingId","nationalDexNumbers","namesZhHant","cardNumber","rarity","language","setCode","illustrationId","releaseDate","sourceUrl","bilingualStatus","dexConfirmed"],
